@@ -1,0 +1,107 @@
+{
+  "configVersion": 1,
+  "timestamp": 1767612551945,
+  "index": "/MusafirGuide/en/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MusafirGuide/en/chunk-6Y3OLQ7J.js",
+        "/MusafirGuide/en/chunk-AY5HSFJO.js",
+        "/MusafirGuide/en/chunk-V3RIX5VM.js",
+        "/MusafirGuide/en/favicon.ico",
+        "/MusafirGuide/en/index.csr.html",
+        "/MusafirGuide/en/index.html",
+        "/MusafirGuide/en/main-UZDJZRMZ.js",
+        "/MusafirGuide/en/manifest.webmanifest",
+        "/MusafirGuide/en/polyfills-DHPUN3NA.js",
+        "/MusafirGuide/en/styles-AQ53CKUF.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MusafirGuide/en/assets/layers-2x.png",
+        "/MusafirGuide/en/assets/layers.png",
+        "/MusafirGuide/en/assets/marker-icon-2x.png",
+        "/MusafirGuide/en/assets/marker-icon.png",
+        "/MusafirGuide/en/assets/marker-shadow.png",
+        "/MusafirGuide/en/icons/icon-128x128.png",
+        "/MusafirGuide/en/icons/icon-144x144.png",
+        "/MusafirGuide/en/icons/icon-152x152.png",
+        "/MusafirGuide/en/icons/icon-192x192.png",
+        "/MusafirGuide/en/icons/icon-384x384.png",
+        "/MusafirGuide/en/icons/icon-512x512.png",
+        "/MusafirGuide/en/icons/icon-72x72.png",
+        "/MusafirGuide/en/icons/icon-96x96.png",
+        "/MusafirGuide/en/media/layers-2x-TBM42ERR.png",
+        "/MusafirGuide/en/media/layers-55W3Q4RM.png",
+        "/MusafirGuide/en/media/leaflet.routing.icons-GOFGMIR4.png",
+        "/MusafirGuide/en/media/marker-icon-2V3QKKVC.png",
+        "/MusafirGuide/en/media/routing-icon-Y5D47KL6.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/MusafirGuide/en/assets/layers-2x.png": "152a162333e46d24f9d89f566312fc0c64011dee",
+    "/MusafirGuide/en/assets/layers.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+    "/MusafirGuide/en/assets/marker-icon-2x.png": "cf3a536596b1f58e0ac805404183c8e6d6bdacb5",
+    "/MusafirGuide/en/assets/marker-icon.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
+    "/MusafirGuide/en/assets/marker-shadow.png": "7b6a8df63930381e96604e705168d0527d6b82bc",
+    "/MusafirGuide/en/chunk-6Y3OLQ7J.js": "e5f32a7df6b5477f5f68aa3bd60c72959ae5b7ff",
+    "/MusafirGuide/en/chunk-AY5HSFJO.js": "7d47700d6c564f9f53f62adef9a0cf3314bbb0d0",
+    "/MusafirGuide/en/chunk-V3RIX5VM.js": "d8dd24cd2f0315e66b2dd2ed0e66e415133b12ae",
+    "/MusafirGuide/en/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/MusafirGuide/en/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/MusafirGuide/en/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/MusafirGuide/en/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/MusafirGuide/en/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/MusafirGuide/en/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/MusafirGuide/en/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/MusafirGuide/en/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/MusafirGuide/en/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/MusafirGuide/en/index.csr.html": "0a92e6d1e2e32da1225ce2a8d83561b0f1d452d8",
+    "/MusafirGuide/en/index.html": "b3b0503281b2c554afe79be031dd75c20ac85225",
+    "/MusafirGuide/en/main-UZDJZRMZ.js": "9feb846b3513f3d535362bebbcbec1bfcaef100c",
+    "/MusafirGuide/en/manifest.webmanifest": "e7d96c756d2225e07cabc7d4f15d01bcaffbdb9d",
+    "/MusafirGuide/en/media/layers-2x-TBM42ERR.png": "152a162333e46d24f9d89f566312fc0c64011dee",
+    "/MusafirGuide/en/media/layers-55W3Q4RM.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+    "/MusafirGuide/en/media/leaflet.routing.icons-GOFGMIR4.png": "9d9f6d3e2c282e2f04d007e066b0d52d33266d49",
+    "/MusafirGuide/en/media/marker-icon-2V3QKKVC.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
+    "/MusafirGuide/en/media/routing-icon-Y5D47KL6.png": "41574344a935671b3a210c7aedd69eaed3b7d282",
+    "/MusafirGuide/en/polyfills-DHPUN3NA.js": "6531376ce7a5ebd2bff5ef36bc16f158314b28d0",
+    "/MusafirGuide/en/styles-AQ53CKUF.css": "d7132540bbb05c54b7f46d55a749deaa30829a81"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
