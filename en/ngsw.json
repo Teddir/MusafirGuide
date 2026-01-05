@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1767612551945,
+  "timestamp": 1767612944816,
   "index": "/MusafirGuide/en/index.csr.html",
   "assetGroups": [
     {
@@ -20,7 +20,7 @@
         "/MusafirGuide/en/main-UZDJZRMZ.js",
         "/MusafirGuide/en/manifest.webmanifest",
         "/MusafirGuide/en/polyfills-DHPUN3NA.js",
-        "/MusafirGuide/en/styles-AQ53CKUF.css"
+        "/MusafirGuide/en/styles-BNVUIHK7.css"
       ],
       "patterns": []
     },
@@ -73,8 +73,8 @@
     "/MusafirGuide/en/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/MusafirGuide/en/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/MusafirGuide/en/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/MusafirGuide/en/index.csr.html": "0a92e6d1e2e32da1225ce2a8d83561b0f1d452d8",
-    "/MusafirGuide/en/index.html": "b3b0503281b2c554afe79be031dd75c20ac85225",
+    "/MusafirGuide/en/index.csr.html": "d9622787e36e9d8031ccdc13dd60dcb615742c59",
+    "/MusafirGuide/en/index.html": "b4a34f18dbc1ba546ec56754b1b2c1af870bd393",
     "/MusafirGuide/en/main-UZDJZRMZ.js": "9feb846b3513f3d535362bebbcbec1bfcaef100c",
     "/MusafirGuide/en/manifest.webmanifest": "e7d96c756d2225e07cabc7d4f15d01bcaffbdb9d",
     "/MusafirGuide/en/media/layers-2x-TBM42ERR.png": "152a162333e46d24f9d89f566312fc0c64011dee",
@@ -83,7 +83,7 @@
     "/MusafirGuide/en/media/marker-icon-2V3QKKVC.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/MusafirGuide/en/media/routing-icon-Y5D47KL6.png": "41574344a935671b3a210c7aedd69eaed3b7d282",
     "/MusafirGuide/en/polyfills-DHPUN3NA.js": "6531376ce7a5ebd2bff5ef36bc16f158314b28d0",
-    "/MusafirGuide/en/styles-AQ53CKUF.css": "d7132540bbb05c54b7f46d55a749deaa30829a81"
+    "/MusafirGuide/en/styles-BNVUIHK7.css": "21f9f8f9fac0efd9b096d086a05d25bb10933b9c"
   },
   "navigationUrls": [
     {
