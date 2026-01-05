@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:MusafirGuide": "node dist/MusafirGuide/server/server.mjs"
+    "serve:ssr:MusafirGuide": "node dist/MusafirGuide/server/server.mjs",
+    "deploy:gh-pages": "ng build --localize --base-href /MusafirGuide/ && cp src/gh-pages-root.html dist/MusafirGuide/browser/index.html && npx angular-cli-ghpages --dir=dist/MusafirGuide/browser --no-silent"
   },
   "prettier": {
     "printWidth": 100,
@@ -40,6 +41,7 @@
     "@ng-icons/lucide": "^33.0.0",
     "@types/leaflet": "^1.9.21",
     "@types/leaflet-routing-machine": "^3.2.9",
+    "angular-cli-ghpages": "^2.0.3",
     "express": "^5.1.0",
     "leaflet": "^1.9.4",
     "leaflet-routing-machine": "^3.2.12",

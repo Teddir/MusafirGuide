@@ -29,13 +29,20 @@ export class MapComponent implements AfterViewInit, OnDestroy {
       // Dynamic import: Webpack/Angular handles 'leaflet' import.
       // However, plugins often expect global 'L' or modify the module they verify.
       const leaflet = await import('leaflet');
-      this.L = leaflet; // Default export or namespace
+      // Check for default export to handle ESM/CommonJS interop in production builds
+      const L_namespace = leaflet as any;
+      const L_instance = L_namespace.default || L_namespace;
 
-      // Fix for plugins relying on global L
-      // Create a mutable copy of the module namespace to allow plugins to extend it
-      const L_mutable = { ...leaflet };
-      (window as any).L = L_mutable;
-      this.L = L_mutable;
+      // Ensure L is available globally for plugins
+      // We explicitly check if it's extensible, if not (Module Namespace), we copy it.
+      // However, usually .default from a CommonJS module is extensible.
+      (window as any).L = L_instance;
+      this.L = L_instance;
+
+      // Double check if L has map function, if not, something is wrong with import
+      if (!this.L.map) {
+        console.error('Leaflet L object seems invalid:', this.L);
+      }
 
       await import('leaflet-routing-machine');
       this.initMap();
