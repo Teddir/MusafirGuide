@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "musafir-guide",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.js"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/MusafirGuide/browser/**"
+    }
+  }
+}
