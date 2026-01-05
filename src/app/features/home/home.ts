@@ -50,7 +50,7 @@ import { LatLng } from '../../core/services/geocoding.service';
           
           <!-- Footer -->
           <div class="p-4 border-t border-gray-100 dark:border-slate-900 text-center text-xs text-gray-400 hidden md:block">
-             <p>MusafirGuide v1.0 &copy; 2026</p>
+             <p i18n="@@home.footer">MusafirGuide v1.0 &copy; 2026</p>
           </div>
       </div>
     </div>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="id" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="comparison.title" datatype="html">
+        <source>Perbandingan Mazhab</source>
+        <target>School of Thought Comparison</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.mazhab" datatype="html">
+        <source>Mazhab</source>
+        <target>Mazhab</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.minDistance" datatype="html">
+        <source>Jarak Min.</source>
+        <target>Min Distance</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.stayLimit" datatype="html">
+        <source>Batas Menetap</source>
+        <target>Stay Limit</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.jamakRule" datatype="html">
+        <source>Hukum Jamak</source>
+        <target>Joining Rule</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.qasarRule" datatype="html">
+        <source>Hukum Qasar</source>
+        <target>Shortening Rule</target>
+      </trans-unit>
+      <trans-unit id="comparison.header.ref" datatype="html">
+        <source>Referensi</source>
+        <target>Reference</target>
+      </trans-unit>
+      <trans-unit id="common.days" datatype="html">
+        <source>Hari</source>
+        <target>Days</target>
+      </trans-unit>
+      <trans-unit id="common.allowed" datatype="html">
+        <source>Boleh</source>
+        <target>Allowed</target>
+      </trans-unit>
+      <trans-unit id="common.limited" datatype="html">
+        <source>Terbatas</source>
+        <target>Limited</target>
+      </trans-unit>
+      <trans-unit id="common.notAllowed" datatype="html">
+        <source>Tidak</source>
+        <target>Not Allowed</target>
+      </trans-unit>
+      <trans-unit id="comparison.whyDiff.title" datatype="html">
+        <source>Mengapa Berbeda?</source>
+        <target>Why the Difference?</target>
+      </trans-unit>
+      <trans-unit id="comparison.whyDiff.desc" datatype="html">
+        <source> Perbedaan pendapat dalam menetapkan jarak safar (Qasar) dikarenakan perbedaan penafsiran terhadap dalil dari Hadits Nabi SAW. Sebagian ulama berpegang pada jarak tempuh (marhalah), sebagian lain berpegang pada 'urf (kebiasaan masyarakat) atau waktu tempuh. Aplikasi ini mengambil pendapat masyhur (mu'tamad) dari masing-masing mazhab untuk memudahkan traveler modern. </source>
+        <target>Differences in determining travel distance (Qasar) arise from interpreting evidence from the Prophet's (PBUH) Hadith. Some scholars rely on distance (marhalah), while others rely on custom ('urf) or travel time. This app uses the famous (mu'tamad) opinion from each school to simplify it for modern travelers.</target>
+      </trans-unit>
+      <trans-unit id="comparison.faq.title" datatype="html">
+        <source>Pertanyaan Umum (FAQ)</source>
+        <target>Frequently Asked Questions</target>
+      </trans-unit>
+      <trans-unit id="comparison.faq.q1" datatype="html">
+        <source>Bagaimana jarak dihitung?</source>
+        <target>How is distance calculated?</target>
+      </trans-unit>
+      <trans-unit id="comparison.faq.a1" datatype="html">
+        <source> Kami menggunakan teknologi routing modern (Leaflet Routing Machine / OSRM) untuk menghitung jarak tempuh riil berdasarkan jalan raya, bukan sekadar garis lurus. Ini memberikan hasil yang lebih akurat sesuai realita perjalanan Anda. </source>
+        <target>We use modern routing technology (Leaflet Routing Machine / OSRM) to calculate real travel distance based on roads, not just a straight line. This provides results more accurate to your actual journey.</target>
+      </trans-unit>
+      <trans-unit id="comparison.faq.q2" datatype="html">
+        <source>Apakah menetap 3 hari masih boleh Qasar?</source>
+        <target>Is Qasar allowed if staying for 3 days?</target>
+      </trans-unit>
+      <trans-unit id="comparison.faq.a2" datatype="html">
+        <source> Mayoritas mazhab membolehkan Qasar jika niat menetap kurang dari 4 hari. Namun, ini tergantung detail kondisi dan niat Anda. Silakan cek tabel perbandingan di atas. </source>
+        <target>The majority of schools allow Qasar if the intention is to stay less than 4 days. However, this depends on the detailed conditions and your intention. Please check the comparison table above.</target>
+      </trans-unit>
+      <trans-unit id="comparison.disclaimer.title" datatype="html">
+        <source>Penyangkalan (Disclaimer)</source>
+        <target>Disclaimer</target>
+      </trans-unit>
+      <trans-unit id="comparison.disclaimer.text" datatype="html">
+        <source>Aplikasi ini hanyalah <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>alat bantu<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> dan <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>belum tersertifikasi oleh lembaga fatwa manapun<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Hasil perhitungan jarak dan status safar di sini tidak bersifat mengikat secara hukum syarak.</source>
+        <target>This application is only a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>tool<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and has <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>not yet been certified by any fatwa institution<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. The results of distance calculation and travel status here are not legally binding in Islamic law.</target>
+      </trans-unit>
+      <trans-unit id="comparison.disclaimer.list1" datatype="html">
+        <source>Konsultasi dengan ulama/ustadz terpercaya untuk kasus spesifik.</source>
+        <target>Consult with a trusted scholar/ustadz for specific cases.</target>
+      </trans-unit>
+      <trans-unit id="comparison.disclaimer.list2" datatype="html">
+        <source>Menggunakan kehati-hatian (ihtiyat) dalam beribadah.</source>
+        <target>Exercise caution (ihtiyat) in worship.</target>
+      </trans-unit>
+      <trans-unit id="comparison.disclaimer.note" datatype="html">
+        <source> Pengembang proyek ini berlepas diri dari tanggung jawab atas kesalahan implementasi ibadah pengguna. Jadikan ini referensi awal semata. </source>
+        <target>The project developers disclaim responsibility for any errors in the user's worship implementation. Use this as an initial reference only.</target>
+      </trans-unit>
+      <trans-unit id="mosque.title" datatype="html">
+        <source>Masjid Terdekat</source>
+        <target>Nearby Mosques</target>
+      </trans-unit>
+      <trans-unit id="mosque.notFound" datatype="html">
+        <source> Tidak ada masjid ditemukan di sekitar lokasi tujuan. </source>
+        <target>No mosques found around the destination.</target>
+      </trans-unit>
+      <trans-unit id="mosque.clickHint" datatype="html">
+        <source>Klik untuk lihat di peta</source>
+        <target>Click to view on map</target>
+      </trans-unit>
+      <trans-unit id="results.backToResults" datatype="html">
+        <source>Kembali ke Hasil</source>
+        <target>Back to Results</target>
+      </trans-unit>
+      <trans-unit id="results.guideTitle" datatype="html">
+        <source>Panduan Solat</source>
+        <target>Prayer Guide</target>
+      </trans-unit>
+      <trans-unit id="results.distanceLabel" datatype="html">
+        <source>Jarak Tempuh</source>
+        <target>Travel Distance</target>
+      </trans-unit>
+      <trans-unit id="results.status.qasar" datatype="html">
+        <source>Boleh Qasar</source>
+        <target>Shortening Allowed</target>
+      </trans-unit>
+      <trans-unit id="results.status.noQasar" datatype="html">
+        <source>Tidak Boleh Qasar</source>
+        <target>Shortening Not Allowed</target>
+      </trans-unit>
+      <trans-unit id="results.jamakTitle" datatype="html">
+        <source>Jamak</source>
+        <target>Joining</target>
+      </trans-unit>
+      <trans-unit id="results.jamakAllowed" datatype="html">
+        <source>Menggabungkan dua solat dalam satu waktu.</source>
+        <target>Combining two prayers at one time.</target>
+      </trans-unit>
+      <trans-unit id="results.jamakForbidden" datatype="html">
+        <source>Jarak belum memenuhi syarat.</source>
+        <target>Distance does not meet requirements.</target>
+      </trans-unit>
+      <trans-unit id="results.qasarTitle" datatype="html">
+        <source>Qasar</source>
+        <target>Shortening</target>
+      </trans-unit>
+      <trans-unit id="results.qasarAllowed" datatype="html">
+        <source>Meringkas solat 4 rakaat menjadi 2 rakaat.</source>
+        <target>Shortening 4 rakat prayers to 2 rakats.</target>
+      </trans-unit>
+      <trans-unit id="results.qasarForbidden" datatype="html">
+        <source>Jarak belum mencapai <x id="INTERPOLATION" equiv-text="{{ minDistance() }}"/> km.</source>
+        <target>Distance has not reached <x id="INTERPOLATION" equiv-text="{{ minDistance() }}"/> km.</target>
+      </trans-unit>
+      <trans-unit id="results.prayerGuideButton" datatype="html">
+        <source>Lihat Panduan Solat</source>
+        <target>View Prayer Guide</target>
+      </trans-unit>
+      <trans-unit id="guide.step1.title" datatype="html">
+        <source>Niat Jamak Qasar</source>
+        <target>Intention for Jamak Qasar</target>
+      </trans-unit>
+      <trans-unit id="guide.step1.desc" datatype="html">
+        <source>Niatkan dalam hati untuk melakukan solat Jamak (Taqdim/Takhir) dan Qasar saat Takbiratul Intiram.</source>
+        <target>Intend in your heart to perform Jamak (Taqdim/Takhir) and Qasar during Takbiratul Ihram.</target>
+      </trans-unit>
+      <trans-unit id="guide.step1.meaning" datatype="html">
+        <source>Aku berniat solat fardhu Dhuhur 2 rakaat, qashar, dengan menjamak Ashar kepadanya, dengan jamak taqdim, karena Allah Ta'ala.</source>
+        <target>I intend to pray the obligatory Dhuhur 2 rakats, shortened, by joining Asr to it, with Jamak Taqdim, for the sake of Allah the Almighty.</target>
+      </trans-unit>
+      <trans-unit id="guide.step2.title" datatype="html">
+        <source>Solat Pertama (2 Rakaat)</source>
+        <target>First Prayer (2 Rakats)</target>
+      </trans-unit>
+      <trans-unit id="guide.step2.desc" datatype="html">
+        <source>Lakukan solat pertama (misal: Dhuhur) sebanyak 2 rakaat saja (Qasar). Salam setelah tahiyat akhir.</source>
+        <target>Perform the first prayer (e.g., Dhuhur) for only 2 rakats (Qasar). Salam after the final tashahhud.</target>
+      </trans-unit>
+      <trans-unit id="guide.step3.title" datatype="html">
+        <source>Iqomah &amp; Solat Kedua</source>
+        <target>Iqamah &amp; Second Prayer</target>
+      </trans-unit>
+      <trans-unit id="guide.step3.desc" datatype="html">
+        <source>Segera berdiri untuk Iqomah, lalu lanjut solat kedua (misal: Ashar) 2 rakaat (Qasar) dengan niat Jamak.</source>
+        <target>Immediately stand for Iqamah, then proceed to the second prayer (e.g., Asr) 2 rakats (Qasar) with Jamak intention.</target>
+      </trans-unit>
+      <trans-unit id="home.footer" datatype="html">
+        <source>MusafirGuide v1.0 © 2026</source>
+        <target>MusafirGuide v1.0 © 2026</target>
+      </trans-unit>
+      <trans-unit id="search.title" datatype="html">
+        <source>Cek Status Safar</source>
+        <target>Check Travel Status</target>
+      </trans-unit>
+      <trans-unit id="search.mazhabInfo" datatype="html">
+        <source> Info Mazhab </source>
+        <target> Mazhab Info </target>
+      </trans-unit>
+      <trans-unit id="search.originPlaceholder" datatype="html">
+        <source>Lokasi Asal (Misal: Jakarta)</source>
+        <target>Origin (e.g. Jakarta)</target>
+      </trans-unit>
+      <trans-unit id="search.useLocationTitle" datatype="html">
+        <source>Gunakan Lokasi Saya</source>
+        <target>Use My Location</target>
+      </trans-unit>
+      <trans-unit id="search.destPlaceholder" datatype="html">
+        <source>Tujuan (Misal: Bandung)</source>
+        <target>Destination (e.g. Bandung)</target>
+      </trans-unit>
+      <trans-unit id="search.button" datatype="html">
+        <source>Cari Rute</source>
+        <target>Search Route</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

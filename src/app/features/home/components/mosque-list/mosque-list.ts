@@ -12,14 +12,14 @@ import { Mosque } from '../../../../core/services/mosque.service';
     <div class="space-y-4">
       <div class="flex items-center gap-2 mb-2 px-1">
         <ng-icon name="heroBuildingLibrary" size="20" class="text-emerald-600"></ng-icon>
-        <h3 class="font-bold text-gray-800 dark:text-white text-lg">Masjid Terdekat</h3>
+        <h3 class="font-bold text-gray-800 dark:text-white text-lg" i18n="@@mosque.title">Masjid Terdekat</h3>
       </div>
       
       <div *ngIf="loading" class="space-y-3">
         <div *ngFor="let i of [1,2,3]" class="h-16 bg-gray-100 dark:bg-slate-800 rounded-xl animate-pulse"></div>
       </div>
 
-      <div *ngIf="!loading && mosques.length === 0" class="text-center py-8 text-gray-500 text-sm">
+      <div *ngIf="!loading && mosques.length === 0" class="text-center py-8 text-gray-500 text-sm" i18n="@@mosque.notFound">
         Tidak ada masjid ditemukan di sekitar lokasi tujuan.
       </div>
 
@@ -34,7 +34,7 @@ import { Mosque } from '../../../../core/services/mosque.service';
             <h4 class="font-bold text-gray-900 dark:text-gray-100 text-sm group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors line-clamp-1">
                 {{ mosque.name }}
             </h4>
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Klik untuk lihat di peta</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1" i18n="@@mosque.clickHint">Klik untuk lihat di peta</p>
           </div>
         </button>
       </div>

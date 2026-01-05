@@ -17,9 +17,9 @@ import { RouterLink } from '@angular/router';
     <div class="bg-transparent p-4 w-full space-y-4">
       <!-- Mazhab Selector -->
       <div class="flex justify-between items-center mb-2">
-        <h2 class="text-lg font-bold text-gray-800 dark:text-white">Cek Status Safar</h2>
+        <h2 class="text-lg font-bold text-gray-800 dark:text-white" i18n="@@search.title">Cek Status Safar</h2>
         <div class="flex gap-2 items-center">
-            <a routerLink="/comparison" class="text-xs text-gray-400 hover:text-emerald-600 underline decoration-dotted flex items-center h-full pt-1">
+            <a routerLink="/comparison" class="text-xs text-gray-400 hover:text-emerald-600 underline decoration-dotted flex items-center h-full pt-1" i18n="@@search.mazhabInfo">
                 Info Mazhab
             </a>
             <div class="relative group">
@@ -51,8 +51,9 @@ import { RouterLink } from '@angular/router';
             <div class="w-2 h-2 rounded-full bg-emerald-500 ring-4 ring-emerald-100"></div>
           </div>
           <input type="text" [(ngModel)]="origin" (keyup.enter)="onSearch()" placeholder="Lokasi Asal (Misal: Jakarta)" 
+            i18n-placeholder="@@search.originPlaceholder"
             class="block w-full pl-10 pr-10 py-3 text-sm rounded-xl border-gray-200 bg-gray-50 focus:border-emerald-500 focus:ring-emerald-500 transition-all outline-none" />
-          <button (click)="useMyLocation()" class="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-emerald-500" title="Gunakan Lokasi Saya">
+          <button (click)="useMyLocation()" class="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-emerald-500" title="Gunakan Lokasi Saya" i18n-title="@@search.useLocationTitle">
              <ng-icon name="heroMapPin" size="20"></ng-icon>
           </button>
         </div>
@@ -64,13 +65,14 @@ import { RouterLink } from '@angular/router';
             <ng-icon name="heroMapPin" class="text-red-500" size="20"></ng-icon>
           </div>
           <input type="text" [(ngModel)]="destination" (keyup.enter)="onSearch()" placeholder="Tujuan (Misal: Bandung)" 
+            i18n-placeholder="@@search.destPlaceholder"
             class="block w-full pl-10 pr-3 py-3 text-sm rounded-xl border-gray-200 bg-gray-50 focus:border-emerald-500 focus:ring-emerald-500 transition-all outline-none" />
         </div>
       </div>
 
       <!-- Search Button -->
       <button (click)="onSearch()" [disabled]="isLoading()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-xl shadow-lg shadow-emerald-200 transition-all transform active:scale-95 flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed">
-        <span *ngIf="!isLoading()">Cari Rute</span>
+        <span *ngIf="!isLoading()" i18n="@@search.button">Cari Rute</span>
         <span *ngIf="isLoading()">Memproses...</span>
         <ng-icon *ngIf="!isLoading()" name="heroArrowRight" size="20"></ng-icon>
       </button>
