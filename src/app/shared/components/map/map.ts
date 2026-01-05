@@ -32,7 +32,10 @@ export class MapComponent implements AfterViewInit, OnDestroy {
       this.L = leaflet; // Default export or namespace
 
       // Fix for plugins relying on global L
-      (window as any).L = this.L;
+      // Create a mutable copy of the module namespace to allow plugins to extend it
+      const L_mutable = { ...leaflet };
+      (window as any).L = L_mutable;
+      this.L = L_mutable;
 
       await import('leaflet-routing-machine');
       this.initMap();

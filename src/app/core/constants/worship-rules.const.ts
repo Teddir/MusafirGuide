@@ -1,0 +1,74 @@
+import { WorshipRules } from "../models/worship.model";
+
+export const WORSHIP_RULES: WorshipRules = {
+  "mazhabs": {
+    "shafii": {
+      "name": "Syafi'i",
+      "distance_threshold_km": 81,
+      "stay_duration_days": 4,
+      "allow_jamak_taqdim": true,
+      "allow_jamak_takhir": true,
+      "allow_qasar": true,
+      "notes": "Jarak minimal 2 qullah/marhalah (sekitar 81-89 km). Niat harus dilakukan sebelum keluar batas kota."
+    },
+    "hanafi": {
+      "name": "Hanafi",
+      "distance_threshold_km": 78,
+      "stay_duration_days": 15,
+      "allow_jamak_taqdim": false,
+      "allow_jamak_takhir": false,
+      "allow_qasar": true,
+      "notes": "Hanafi tidak membolehkan Jamak kecuali saat Haji (Arafah/Muzdalifah). Qasar hukumnya WAJIB (Azimah) jika memenuhi syarat jarak."
+    },
+    "maliki": {
+      "name": "Maliki",
+      "distance_threshold_km": 84,
+      "stay_duration_days": 4,
+      "allow_jamak_taqdim": true,
+      "allow_jamak_takhir": true,
+      "allow_qasar": true,
+      "notes": "Qasar hukumnya Sunnah Muakkad."
+    },
+    "hambali": {
+      "name": "Hambali",
+      "distance_threshold_km": 85,
+      "stay_duration_days": 4,
+      "allow_jamak_taqdim": true,
+      "allow_jamak_takhir": true,
+      "allow_qasar": true,
+      "notes": "Boleh jamak karena hajat/masy’aqqah (kesulitan), tidak semata-mata karena safar."
+    }
+  },
+  "prayers": {
+    "fajr": {
+      "name": "Subuh",
+      "rakaat": 2,
+      "can_jamak": false,
+      "can_qasar": false
+    },
+    "dhuhr": {
+      "name": "Dzuhur",
+      "rakaat": 4,
+      "can_jamak": true,
+      "can_qasar": true
+    },
+    "asr": {
+      "name": "Ashar",
+      "rakaat": 4,
+      "can_jamak": true,
+      "can_qasar": true
+    },
+    "maghrib": {
+      "name": "Maghrib",
+      "rakaat": 3,
+      "can_jamak": true,
+      "can_qasar": false
+    },
+    "isha": {
+      "name": "Isya",
+      "rakaat": 4,
+      "can_jamak": true,
+      "can_qasar": true
+    }
+  }
+};

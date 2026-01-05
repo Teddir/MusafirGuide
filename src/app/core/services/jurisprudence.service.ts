@@ -1,22 +1,16 @@
-import { Injectable, signal, computed, inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { toSignal } from '@angular/core/rxjs-interop';
-import { map, shareReplay } from 'rxjs/operators';
-import { MazhabId, WorshipRules, TravelStatus, MazhabRule } from '../models/worship.model';
+import { Injectable, signal, computed } from '@angular/core'; // Remove inject, HttpClient
+import { MazhabId, TravelStatus } from '../models/worship.model';
+import { WORSHIP_RULES } from '../constants/worship-rules.const';
 
 @Injectable({
   providedIn: 'root'
 })
 export class JurisprudenceService {
-  private http = inject(HttpClient);
-  private rulesUrl = '/worship-rules.json';
-
   // State
   readonly selectedMazhabId = signal<MazhabId>('shafii');
 
-  // Load Rules
-  private rules$ = this.http.get<WorshipRules>(this.rulesUrl).pipe(shareReplay(1));
-  readonly rules = toSignal(this.rules$, { initialValue: null });
+  // Load Rules (Now Static)
+  readonly rules = signal(WORSHIP_RULES);
 
   // Computed
   readonly currentMazhabRule = computed(() => {
