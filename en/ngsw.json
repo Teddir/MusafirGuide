@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1767706039586,
+  "timestamp": 1767794722459,
   "index": "/MusafirGuide/en/index.csr.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/MusafirGuide/en/favicon.ico",
         "/MusafirGuide/en/index.csr.html",
         "/MusafirGuide/en/index.html",
-        "/MusafirGuide/en/main-HSUT7SZ5.js",
+        "/MusafirGuide/en/main-56HLK4HV.js",
         "/MusafirGuide/en/manifest.webmanifest",
         "/MusafirGuide/en/polyfills-DHPUN3NA.js",
         "/MusafirGuide/en/styles-BNVUIHK7.css"
@@ -73,9 +73,9 @@
     "/MusafirGuide/en/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/MusafirGuide/en/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/MusafirGuide/en/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/MusafirGuide/en/index.csr.html": "65480d5aef429b980b4613d8b3496a0a22069423",
-    "/MusafirGuide/en/index.html": "89d41b61c71afe6cea3bbf90218c88250eea5f78",
-    "/MusafirGuide/en/main-HSUT7SZ5.js": "6915a717c344b739e7eeb393239266214e931dc9",
+    "/MusafirGuide/en/index.csr.html": "65121f291fe90e73aad2c8c6c4539537680e6343",
+    "/MusafirGuide/en/index.html": "4f8b0e01dded750cd66d031e3666340b627df00c",
+    "/MusafirGuide/en/main-56HLK4HV.js": "721358787fcc4953a5229a57d2fb1e76cd8eb6a9",
     "/MusafirGuide/en/manifest.webmanifest": "e7d96c756d2225e07cabc7d4f15d01bcaffbdb9d",
     "/MusafirGuide/en/media/layers-2x-TBM42ERR.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/MusafirGuide/en/media/layers-55W3Q4RM.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
