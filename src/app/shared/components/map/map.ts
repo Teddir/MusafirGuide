@@ -108,9 +108,10 @@ export class MapComponent implements AfterViewInit, OnDestroy {
   private fixLeafletIcons() {
     const L = this.L;
     // Assets are already in public/assets, we need to point to them
-    const iconRetinaUrl = '/assets/marker-icon-2x.png';
-    const iconUrl = '/assets/marker-icon.png';
-    const shadowUrl = '/assets/marker-shadow.png';
+    // Remove leading slash to respect base href (e.g. /MusafirGuide/)
+    const iconRetinaUrl = 'assets/marker-icon-2x.png';
+    const iconUrl = 'assets/marker-icon.png';
+    const shadowUrl = 'assets/marker-shadow.png';
     const iconDefault = L.Icon.Default.prototype as any;
     delete iconDefault._getIconUrl; // Fix: Delete instead of setting to null so it falls back to L.Icon prototype
     L.Icon.Default.mergeOptions({
@@ -135,11 +136,11 @@ export class MapComponent implements AfterViewInit, OnDestroy {
     this.mosqueMarkers = [];
 
     const mosqueIcon = L.icon({
-      iconUrl: '/assets/marker-icon.png', // We can use a different color/icon later if needed
+      iconUrl: 'assets/marker-icon.png', // We can use a different color/icon later if needed
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: '/assets/marker-shadow.png',
+      shadowUrl: 'assets/marker-shadow.png',
       shadowSize: [41, 41],
       className: 'mosque-marker-filter' // We'll add CSS filter to color it green
     });

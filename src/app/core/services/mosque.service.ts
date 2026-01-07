@@ -21,7 +21,7 @@ export class MosqueService {
   searchMosques(lat: number, lon: number, radiusMeters: number = 2000): Observable<Mosque[]> {
     // Overpass QL query to find nodes tagged as amenity=place_of_worship and religion=muslim
     const query = `
-      [out:json][timeout:25];
+      [out:json][timeout:90];
       (
         node["amenity"="place_of_worship"]["religion"="muslim"](around:${radiusMeters},${lat},${lon});
         way["amenity"="place_of_worship"]["religion"="muslim"](around:${radiusMeters},${lat},${lon});
